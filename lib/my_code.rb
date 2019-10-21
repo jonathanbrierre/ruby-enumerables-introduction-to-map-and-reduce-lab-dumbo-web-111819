@@ -38,8 +38,6 @@ end
 
 
 def reduce_to_total(source_array, starting_point)
-
- 
  total = 0
   if starting_point
     starting_point += source_array.sum 
@@ -48,24 +46,6 @@ def reduce_to_total(source_array, starting_point)
     total += source_array.sum 
     total
   end 
- 
-  # i = 0
-  # if starting_point
-  #   while i < source_array.count do 
-  #     starting_point += source_array[i]
-  #     i += 1 
-  #   end 
-  #     starting_point
-     
-  # else 
-  #   total = 0 
-  #   while i < source_array.count do
-  #     total += source_array[i]
-  #     i += 1
-  #   end
-  #   total
-  
-  
 end 
 
 def reduce_to_all_true(source_array)
