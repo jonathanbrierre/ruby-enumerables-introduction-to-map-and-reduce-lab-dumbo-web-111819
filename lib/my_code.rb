@@ -46,7 +46,7 @@ def reduce_to_total(source_array, starting_point)
     total += source_array.sum 
     return total
   end 
-  
+  binding.pry
   # i = 0
   # if starting_point
   #   while i < source_array.count do 
