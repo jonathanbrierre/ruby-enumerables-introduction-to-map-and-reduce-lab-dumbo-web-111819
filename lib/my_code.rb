@@ -38,14 +38,11 @@ end
 
 
 def reduce_to_total(source_array, starting_point = 0)
- total = 0
+ 
   if starting_point
     starting_point += source_array.sum 
     starting_point
-  else 
-    total += source_array.sum 
-    total
-  end 
+  
 end 
 
 def reduce_to_all_true(source_array)
