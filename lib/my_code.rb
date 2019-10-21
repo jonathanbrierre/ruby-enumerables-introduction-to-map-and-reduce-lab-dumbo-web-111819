@@ -43,10 +43,10 @@ def reduce_to_total(source_array, starting_point)
  total = 0
   if starting_point
     starting_point += source_array.sum 
-    return starting_point
+    
   else 
     total += source_array.sum 
-    return total
+    
   end 
   
   # i = 0
